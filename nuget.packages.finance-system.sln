@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Http.Helper", "Http.Helper\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation.Helper", "Validation.Helper\Validation.Helper.csproj", "{F23A8846-C30E-4C15-8AFC-CAEBDA5EF598}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.Integration.Core", "Testing.Integration.Core\Testing.Integration.Core.csproj", "{0CDC7FE0-0DAA-4634-8AA5-ADE1629362F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F23A8846-C30E-4C15-8AFC-CAEBDA5EF598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23A8846-C30E-4C15-8AFC-CAEBDA5EF598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23A8846-C30E-4C15-8AFC-CAEBDA5EF598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDC7FE0-0DAA-4634-8AA5-ADE1629362F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC7FE0-0DAA-4634-8AA5-ADE1629362F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC7FE0-0DAA-4634-8AA5-ADE1629362F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC7FE0-0DAA-4634-8AA5-ADE1629362F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
