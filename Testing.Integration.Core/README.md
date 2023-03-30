@@ -1,4 +1,4 @@
-﻿## WalletWebApplicationFactory.AddDbContextService method example (SQLite)
+﻿## AbstractWebApplicationFactory.AddDbContextService method example (SQLite)
 ```
 protected override void AddDbConnectionService(IServiceCollection services)
 {
@@ -12,7 +12,7 @@ protected override void AddDbConnectionService(IServiceCollection services)
 }
 ```
 
-## WalletWebApplicationFactory.AddDbConnectionService method example (SQLite)
+## AbstractWebApplicationFactory.AddDbConnectionService method example (SQLite)
 ```
 protected override void AddDbContextService(IServiceCollection services)
 {

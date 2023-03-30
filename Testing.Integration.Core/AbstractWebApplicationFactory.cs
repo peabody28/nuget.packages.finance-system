@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Data.Common;
+using Testing.Integration.Core.Constants;
 
 namespace Testing.Integration.Core
 {
@@ -57,7 +58,7 @@ namespace Testing.Integration.Core
                         TestAuthHandler.AuthenticationScheme, options => { });
             });
 
-            builder.UseEnvironment("Development");
+            builder.UseEnvironment(EnvironmentConstants.DefaultWebAppEnvironment);
         }
     }
 }

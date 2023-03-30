@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Security.Claims;
 using System.Text.Encodings.Web;
+using Testing.Integration.Core.Constants;
 
 namespace Testing.Integration.Core
 {
@@ -11,7 +12,7 @@ namespace Testing.Integration.Core
     /// </summary>
     public class TestAuthHandler : AuthenticationHandler<TestAuthenticationSchemeOptions>
     {
-        public const string AuthenticationScheme = "TestScheme";
+        public const string AuthenticationScheme = AuthenticationConstants.TestAuthenticationScheme;
 
         private string UserName { get; set; }
 
@@ -33,7 +34,7 @@ namespace Testing.Integration.Core
                 new Claim(ClaimTypes.Role, UserRole)
             };
 
-            var identity = new ClaimsIdentity(claims, "Test");
+            var identity = new ClaimsIdentity(claims, AuthenticationConstants.TestAuthenticationType);
             var principal = new ClaimsPrincipal(identity);
             var ticket = new AuthenticationTicket(principal, AuthenticationScheme);
 
