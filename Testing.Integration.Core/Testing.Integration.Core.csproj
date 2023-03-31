@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <Title>Integration Testing Helper Classes</Title>
     <Authors>peabody28</Authors>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
