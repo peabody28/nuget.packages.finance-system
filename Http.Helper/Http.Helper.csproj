@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>HTTP Helper Classes</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>peabody28</Authors>
     <Description>Helps to perform HTTP requests</Description>
     <PackageTags>HTTP</PackageTags>
@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
